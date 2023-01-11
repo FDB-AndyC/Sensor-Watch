@@ -35,6 +35,7 @@ const watch_face_t watch_faces[] = {
     stopwatch_face,
     hello_there_face,
     voltage_face,
+    thermistor_readout_face,
     preferences_face,
     set_time_face,
 };
