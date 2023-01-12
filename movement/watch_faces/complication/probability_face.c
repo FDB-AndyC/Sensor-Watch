@@ -123,7 +123,7 @@ void probability_face_activate(movement_settings_t *settings, void *context) {
 
     state->dice_sides = DEFAULT_DICE_SIDES;
     state->rolled_value = 0;
-    watch_display_string("DI", 0);
+    watch_display_string("dI", 0);
 }
 
 bool probability_face_loop(movement_event_t event, movement_settings_t *settings, void *context) {
